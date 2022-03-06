@@ -1,0 +1,20 @@
+// Utilities
+@import './utilities/mixins';
+@import './utilities/variables';
+
+.App{
+    color: #FFF;
+}
+
+#animated-background{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+ul{
+    position: absolute;
+    z-index: 1;
+}

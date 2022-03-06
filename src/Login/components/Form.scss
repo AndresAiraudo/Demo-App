@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Poppins:wght@400;600&display=swap');
+
+.form-container{
+    width: 100vw;
+    height: 50vh;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+// Boton con efecto al presionar
+// btn reposo
+.btn-submit{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 25vw;
+    height: 48px;
+    background: hsl(41,68,54) padding-box;
+    border-radius: 5px;
+    border: 0px solid #fff;
+    box-shadow: 0 0 #fff;
+
+    
+    transition: .25s;
+
+    color: #fff; //cambiar por variable
+    margin-top: 20px;
+    font-weight: bold;
+    transition: 0.01s;
+}
+
+//btn active
+.btn-submit:active{
+    transition: 0.01s;
+    transform: translate(2px, 2px);
+    box-shadow: 0 .1em .8em .1em #fff;
+}
+
+.campo{
+    padding-top: 22px;
+}
+
+.campo label{
+    display: block;
+    color: lightGray;
+    font-weight: bold;
+    width: 70vw;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 8px 10px;
+    position: relative;
+    box-sizing: border-box;
+    transition: .25s;
+    
+}
+
+
+.campo input{
+    border: none;
+    outline: none;
+    background: transparent;
+    display: block;
+    color: hsl(225,17,47, 100%);
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+
+.campo span{
+    color: hsl(225,17,47, 100%);
+    position: absolute;
+    top: 8px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 600;
+    transition: .25s;
+    width: 100px;
+    border-right: 1px solid hsl(225,17,47, 100%);
+    text-align: center;
+}

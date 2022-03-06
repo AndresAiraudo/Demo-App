@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Poppins:wght@400;600&display=swap');
+
+// Text Style
+
+@mixin style-title {
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}

@@ -1,0 +1,33 @@
+// Utilities
+@import '../Styles/utilities/variables';
+@import '../Styles/utilities/mixins';
+
+.login-container{
+    width: 100vw;
+    height: 50vh;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container{
+    position: absolute;
+    top: 0px;
+    opacity: .9;
+    background-color: hsl(223,18,40, 90%);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 1em 4em 1em #fff;
+    h1{
+        font-size: 50px;
+        @include style-title;
+    }
+}
